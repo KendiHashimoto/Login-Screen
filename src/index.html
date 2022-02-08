@@ -17,35 +17,40 @@
 
         <section class="content-container">
 
-            <div class="login-container">
+            <div>
                 <h1>LOGIN</h1>
                 <form>
-                    <label for="Username">Username</label><br>
-                    <input type="text" name="fname"><br>
-                    <label for="Password">Password</label><br>
-                    <input type="text" name="pname"><br>
-                    <div>
-                        <input type="radio" id="remember">
-                        <label>Remember me</label>
-                        <p>Esqueceu a senha?</p>
-                    </div>
+                    <label class="input-description" for="Username">E-mail</label>
+                    <input class="input-form" type="text" name="fname" placeholder="Enter your Email">
+                    <label class="input-description" for="Password">Password</label>
+                    <input class="input-form" type="password" name="pname" placeholder="Enter your Password">
                 </form>
 
-                <div class="entrar-container">
-                    <button class="entrar-button">Entrar</button>
+                    <div class="after-credentials">
+                        <div>
+                            <input id="remember" type="checkbox">
+                            <label for="remember">Remember me</label>
+                        </div>
+                        <span><a href="#">Forgotten Password?</a></span>
+                    </div>
+
+                <div>
+                    <button class="entry-button">Enter</button>
                 </div>
 
-                <div class="inscrição-container">
-                    <p>Não tem uma conta? Inscrever-se</p>
+                <div class="sign-container">
+                    <p>Don't have an account? 
+                    <span><a href="#">Register</a></span>
+                    </p>
                 </div>
 
                 <div class="login-whit">
-                    <h2>LOGAR COM</h2>
-                    <figure class="social-networks">
+                    <h2>Sign in with</h2>
+                    <div class="social-networks">
                         <img src="assets/IMG/facebook.png" alt="facebook">
                         <img src="assets/IMG/google.png" alt="google">
                         <img src="assets/IMG/apple.png" alt="apple">
-                    </figure>
+                    </div>
                 </div>
             </div>
 

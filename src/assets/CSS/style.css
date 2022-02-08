@@ -9,6 +9,7 @@
     display: flex;
 }
 
+/* IMG */
 .img-container {
     background-color: #63B4FE;
     height: 100vh;
@@ -16,15 +17,99 @@
 }
 
 .man-svg {
-    margin-top: 20vh;
-    margin-left: 3em;
+    margin: 22vh 3vh 0vh 3vh;
 }
 
-.login-container { 
-    
+/* LOGIN SCREEN */
+.content-container {
+    display: flex;
+    margin: 5vw 12vw;
+    text-align: center;
 }
 
 .login-container h1 {
-    font-size: 50px;
+    font-size: 40px;
+    margin: 0px 0px 20px 0px;
+    padding: 0px 200px;
 }
 
+.input-description {
+    margin: 0px 100% 0px 0px;
+    font-size: 18px;
+}
+
+.input-form {
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    margin: 10px 0px 25px 0px;
+    padding: 0px 0px 0px 20px;
+    border-style: none;
+    background-color: #EEF1F9;
+}
+
+.after-credentials {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: 0px 0px 35px 0px;
+}
+
+.after-credentials a {
+    text-decoration: none;
+    color: #669ebd;
+}
+
+.entry-button {
+    font-size: 25px;
+    color: white;
+    padding: 25px 300px;
+    margin-bottom: 30px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #63B4FE;
+}
+
+.entry-button:hover {
+    transition-duration: 0.25s;
+    background-color: #51a5f3;
+}
+
+.entry-button:active {
+    position: relative;
+    left: 2px;
+    top: 2px;
+}
+
+.sign-container {
+    margin: 0px 420px 60px 0px;
+}
+
+.sign-container a {
+    color: #669ebd;
+}
+
+.login-whit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(100, 100, 100);
+    margin: 0px 0px 20px 0px;
+}
+
+.login-whit h2{
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.login-whit img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 0px 30px;
+}
+
+/* RESPONSIVE */
