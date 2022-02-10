@@ -1,3 +1,3 @@
-<div text-align="center">
+<div align="center">
   <h1> Login-Screen
 </div>
