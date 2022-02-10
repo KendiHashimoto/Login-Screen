@@ -126,6 +126,7 @@
 .login-whit img:hover {
     background-color: rgb(241, 235, 235);
     border-radius: 50%;
+    transition-duration: 0.25s;
 }
 
 /* RESPONSIVE */ 
